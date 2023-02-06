@@ -1,0 +1,31 @@
+
+
+
+.topWeblinks {
+ color: black;
+ font-family: arial,sans-serif;
+ font-size:13px;
+ display: inline-block, flex;
+ line-height: 24px;
+ vertical-align: middle;
+ text-align: right;
+ 
+
+}
+
+
+
+a{
+    display: inline-block, flex;
+    text-decoration: none;
+    color: black;
+    border-style: none;
+    border-width: 25px;
+    padding:5px
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
