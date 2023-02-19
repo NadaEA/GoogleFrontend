@@ -2,25 +2,22 @@
 
 
 .topWeblinks {
- color: black;
- font-family: arial,sans-serif;
- font-size:14px;
- display: inline-block, flex;
- line-height: 24px;
- vertical-align: middle;
- text-align: right;
+    color: black;
+    font-family: arial,sans-serif;
+    font-size:14px;
+    display: inline-block, flex;
+    line-height: 24px;
+    vertical-align: middle;
+    text-align: right;
  
 
 }
-
-
 
 a{
     display: inline-block, flex;
     text-decoration: none;
     color: black;
     border-style: none;
-    
     padding: 10px;
     
 }
@@ -60,17 +57,18 @@ img{
     max-width: 584px;
     justify-content: center; /**/
     align-items: center;
+    padding: 0 14px 0 14px;
 
 }
 
 .searchBar{
     display: flex;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
     /*Specifications also taken from google's HTML to suit the aesthetic*/
     background-color: transparent;
     border: none;
-    margin: 0;
+    margin-left:0;/*with margins you can specify one thing like margin: 0 auto; and specify more later without overriding the first command*/
     padding: 0;
     color: rgba(0,0,0,.87);
     height: 34px;
@@ -79,11 +77,38 @@ img{
 
 }
 
-/*input.searchBar:focus {
+input.searchBar:focus {
     outline-width: 0;
-} This effectively removes the blue border around the input area*/
+} /*This effectively removes the blue border around the input area*/
 
 .searchBarContainer:hover{
     /* */
     box-shadow: 0px 0px 3px 1px rgb(229, 228, 228); 
+}
+.fa-sharp{
+    color: #9aa0a6; /*taken from google's html!*/
+    padding:0 14px 0 5px;
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    padding-top:18px;
+    
+}
+
+.Button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 6px;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.Button:hover{
+    box-shadow: 0px 0px 1px 1px rgb(219, 218, 218); /*Just a tad darker than the search bar's shadow*/
 }
