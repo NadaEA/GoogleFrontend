@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AdvancedSearch</title>
+    </head>
+    <body>
+        <div class="GoogleLogoContainer">
+            <!-- Below is how you make an image into a link, I could have kept the "Google Search" but the image serves the purpose of being a link -->
+            <!-- !Importantly!, Interesting point: You can't really resize an image if it's within a href block and you're hosting it locally.
+                  Additionally, having the browser scale the images up or down is a bad idea for both performance and image quality, the way to
+                  go should really to resize the image to whatever you want and use that. Cool source: http://offog.org/notes/image-scaling/-->
+            <a class="link" href="index.html"><img class="googleLogo" src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Google's logo"></a>
+        </div>
+        <form action="https://www.google.com/search">
+            <input type="text" name="q">
+            <input type="submit" value="Google Search">
+        </form>
+    </body>
+</html>
