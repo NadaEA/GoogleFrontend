@@ -112,3 +112,12 @@ input.searchBar:focus {
 .Button:hover{
     box-shadow: 0px 0px 1px 1px rgb(219, 218, 218); /*Just a tad darker than the search bar's shadow*/
 }
+
+/*The CSS above is for the Google image and the Regular Google Search pages. Below is for the Advanced Search*/
+
+/*Interesting point: You can't really resize an image if it's within a href block and you're hosting it locally.*/
+.googleLogo{
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+}
