@@ -1,6 +1,4 @@
 
-
-
 .topWeblinks {
     color: black;
     font-family: arial,sans-serif;
@@ -9,8 +7,6 @@
     line-height: 24px;
     vertical-align: middle;
     text-align: right;
- 
-
 }
 
 a{
@@ -19,7 +15,6 @@ a{
     color: black;
     border-style: none;
     padding: 10px;
-    
 }
 
 a:hover{
@@ -34,9 +29,6 @@ a:hover{
     height: 272px;
     margin-bottom: 25px;
     margin:25 auto;
-    
-    
-    
 }
 
 img{
@@ -115,9 +107,64 @@ input.searchBar:focus {
 
 /*The CSS above is for the Google image and the Regular Google Search pages. Below is for the Advanced Search*/
 
-/*Interesting point: You can't really resize an image if it's within a href block and you're hosting it locally.*/
-.googleLogo{
-    display: inline-block;
-    height: 24px;
-    width: 74px;
+.GoogleLogoContainer{
+    display: flex;
+    margin-left:3px;
+    margin-top:15px;
+}
+
+.AdvancedSearchBar{
+    display: flex;
+    width: 100%;
+    border-bottom-color: #dee0e1;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    justify-content: left;
+}
+
+.captionAdSearch{
+    color: #d93025;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    padding: 25px 35px;/*first number is top/bottom, second is left/right*/
+}
+
+.findPagesBar{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+#findPagesCaption{
+    font-size: 16px;
+    padding: 40px 35px 25px 35px;/*top,right,bottom,left*/
+    font-family: arial,sans-serif;
+}
+
+.keyWords{
+    display:flex;
+    width: 70%;
+    height:100px;
+    padding: 5px 35px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+
+.caption{
+    
+    min-width: 170px;
+    display:flex;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    align-self: center;
+    
+}
+
+.searchBars{
+    display:flex;
+    align-self:center;
+    width:50%;
+    min-width:200px;
 }
