@@ -20,13 +20,27 @@
         <div class="findPagesBar">
             <label id="findPagesCaption">Find Pages With...</label>
         </div>
-        <div class="keyWords">
-            <label class="caption">this exact word or phrase:</label>
-            <input class="searchBars"type="text" name="q">
-        </div>
         <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div class="keyWords">
+                <div class="individualKeyWord">
+                    <label class="caption">all these words:</label>
+                    <input class="searchBars"type="text" name="q">
+                </div>
+                <div class="individualKeyWord">
+                    <label class="caption">this exact word or phrase:</label>
+                    <input class="searchBars"type="text" name="q">
+                </div>
+                <div class="individualKeyWord">
+                    <label class="caption">any of these words:</label>
+                    <input class="searchBars"type="text" name="q">
+                </div>
+                <div class="individualKeyWord">
+                    <label class="caption">none of these words:</label>
+                    <input class="searchBars"type="text" name="q">
+                </div>
+            </div>
+                <input type="text" name="q">
+                <input type="submit" value="Google Search">
         </form>
     </body>
 </html>
