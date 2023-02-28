@@ -22,25 +22,29 @@
         </div>
         <form action="https://www.google.com/search">
             <div class="keyWords">
+                <!-- About the query names, they're figured out by inspecting a search element and going to the network section and observing which
+                     parameters are set to which search option's input -->
                 <div class="individualKeyWord">
                     <label class="caption">all these words:</label>
-                    <input class="searchBars"type="text" name="q">
+                    <input class="searchBars"type="text" name="as_q">
                 </div>
                 <div class="individualKeyWord">
                     <label class="caption">this exact word or phrase:</label>
-                    <input class="searchBars"type="text" name="q">
+                    <input class="searchBars"type="text" name="as_epq">
                 </div>
                 <div class="individualKeyWord">
                     <label class="caption">any of these words:</label>
-                    <input class="searchBars"type="text" name="q">
+                    <input class="searchBars"type="text" name="as_oq">
                 </div>
                 <div class="individualKeyWord">
                     <label class="caption">none of these words:</label>
-                    <input class="searchBars"type="text" name="q">
+                    <input class="searchBars"type="text" name="as_eq">
                 </div>
             </div>
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
+                <!-- Changing input to button will disrupt the functioning of the program-->
+            <div class="adSearchButton">
+                <input class="Button" type="submit" value="Google Advanced Search">
+            </div>
         </form>
     </body>
 </html>
